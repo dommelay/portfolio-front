@@ -1,8 +1,20 @@
 import React from 'react'
+import {UseState, UseEffect} from 'react'
 import './App.css';
+import Resume from './components/Resume'
 
 const App = () => {
+  const handleScroll = () => {
+    window.scrollTo ({
+      top: 800,
+      behavior: 'smooth',
+    })
+  }
+
+
   return (
+<>
+
     <div className="App">
       
         <h1 id='name'>Dominique Clark</h1>
@@ -25,8 +37,13 @@ const App = () => {
           <img className='icon' src={process.env.PUBLIC_URL + '/images/twitter.png' } alt='icon'/>
         </a>
       </div>
-      <img className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon'/>
+      <img className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
     </div>
+    <div>
+      <Resume/>
+    </div>
+
+    </>
   );
 }
 
