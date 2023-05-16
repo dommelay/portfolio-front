@@ -1,3 +1,4 @@
+/* App */
 .App {
   align-items: center;
   justify-content: center;
@@ -5,7 +6,6 @@
   display: flex;
   flex-direction: column;
 }
-
 #name {
   margin: 47px 0px 0px 0px;
   font-size: 60px;
@@ -40,7 +40,37 @@
   width: 40px;
   height: auto;
 }
-#test {
+
+/* Resume */
+.edulogo {
+  width: 70px;
+  height: 75px;
+  margin-left: 20px;
+}
+.galogo {
+  width: 60px;
+  margin-left: 20px;
+}
+.schoollogo {
+  display: flex;
+  flex-direction: row;
+}
+#resumecontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+#resumedownload {
+  width: 350px;
   border: solid black;
-  height: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#educontainer {
+  border: solid black;
+}
+#resumebtn {
+  font-size: 35px;
+  padding: 15px;
 }
