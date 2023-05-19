@@ -2,6 +2,7 @@ import React from 'react'
 import {UseState, UseEffect} from 'react'
 import './App.css';
 import Resume from './components/Resume'
+import Projects from './components/Projects';
 
 const App = () => {
   const handleScroll = () => {
@@ -41,6 +42,9 @@ const App = () => {
     </div>
     <div>
       <Resume/>
+    </div>
+    <div>
+      <Projects/>
     </div>
 
     </>

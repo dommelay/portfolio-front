@@ -1,8 +1,13 @@
 import react from 'react'
 
-const Resume = () => {
+const Resume = (props) => {
 
-
+    const handleScroll = () => {
+        window.scrollTo ({
+            top: 1600,
+            behavior: 'smooth',
+          })
+    }
 
 
     return (
@@ -53,9 +58,12 @@ const Resume = () => {
                         </div>
                 </div>
             </div>
+         
 
         </div>
-    
+        <div className='arrowcontainer'>
+            <img className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
+        </div>
 </div>
     )
 }
