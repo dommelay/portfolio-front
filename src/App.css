@@ -3,6 +3,14 @@ h3, h1 {
 }
 body {
   color: #444444;
+  background-image: url('../public/images/portback.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: #444444;
 }
 
 /* App */
@@ -127,13 +135,28 @@ body {
 .projectimg {
   width: 450px;
   height: 383px;
+  border-radius: 12px;
+  border: 20px solid whitesmoke;
 }
 .projecttitle {
   display: flex;
   justify-content: center;
-  font-size: 35px;
+  font-size: 40px;
+  /* margin-bottom: 20px; */
 }
 .weatherdiv {
   margin-left: 75px;
+}
+.projectdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectlink {
+  width: 70px;
+  margin-bottom: 35px;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 3px;
 }
 
