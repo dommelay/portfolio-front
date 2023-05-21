@@ -38,7 +38,9 @@ const Resume = (props) => {
                         <h3 className='eduyear'>2021</h3>
                     </div>
                     <div className='degreegpa'>
-                        <h3 className='degree'>B.S. in Biopsychology and Neuroscience | Pre-medical concentration</h3>
+                        <a href='https://drive.google.com/file/d/1-KLawve68N53jzAvaRmLFw8KwuB8pqjU/view?usp=share_link' target='_blank'>
+                            <h3 className='degree'>B.S. in Biopsychology and Neuroscience | Pre-medical concentration</h3>
+                        </a>
                         <h3 className='gpa'>GPA: 3.89 | Relevant courses: 1 year Physics, 1 year Calculus, 1 year Statistics</h3>
                     </div>
                 </div>
@@ -53,7 +55,9 @@ const Resume = (props) => {
                         <h3 className='eduyear'>2023</h3>
                     </div>
                         <div className='degreegpa'>
-                            <h3 className='degree'>Computer Software Engineering | Certificate</h3>
+                            <a href='https://drive.google.com/file/d/1f42aiylhn3rG0x7Ol42jpHChhpzZViVl/view?usp=sharing' target='_blank'>
+                                <h3 className='degree'>Certificate | Computer Software Engineering</h3>
+                            </a>
                             <h3 className='gpa gabio'>Full-stack software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.</h3>
                         </div>
                 </div>
