@@ -4,7 +4,7 @@ const Resume = (props) => {
 
     const handleScroll = () => {
         window.scrollTo ({
-            top: 1600,
+            top: 1450,
             behavior: 'smooth',
           })
     }
@@ -62,7 +62,7 @@ const Resume = (props) => {
 
         </div>
         <div className='arrowcontainer'>
-            <img className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
+            <img id='arrowresume' className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
         </div>
 </div>
     )
