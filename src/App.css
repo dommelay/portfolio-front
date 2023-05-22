@@ -10,7 +10,7 @@ body {
 }
 a {
   text-decoration: none;
-  /* color: #444444; */
+  color: #444444;
 }
 
 /* App */
@@ -19,7 +19,7 @@ a {
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 150px 30px 0px 30px;
+  margin: 175px 30px 0px 30px;
 }
 #name {
   font-size: 60px;
@@ -53,7 +53,7 @@ a {
   margin-bottom: 40px;
 }
 .downarrow {
-  margin: 80px 0px 60px 0px;
+  margin: 80px 0px 80px 0px;
   width: 40px;
   height: auto;
 }
@@ -148,31 +148,59 @@ a {
   justify-content: center;
 }
 .projectimg {
-  width: 450px;
-  height: 383px;
-  border-radius: 12px;
-  border: 20px solid whitesmoke;
+  /* 85% ratio */
+  width: 500px;
+  height: 425px;
 }
 .projecttitle {
   display: flex;
   justify-content: center;
-  font-size: 40px;
-  /* margin-bottom: 20px; */
+  font-size: 45px;
 }
 .weatherdiv {
-  margin-left: 75px;
+  margin-left: 80px;
 }
 .projectdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.projectlink {
-  width: 70px;
+.repo {
+  font-size: 30px;
+}
+.front {
+  margin-right: 27px;
+}
+.back {
+  margin-left: 23px;
+}
+.projectinfo {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 30px 0px;
+  font-size: 55px;
+  color: #444444;
+}
+.linkicon {
+  width: 50px;
+  height: auto;
   margin: 35px 0px 40px 0px;
-  border-radius: 8px;
-  font-size: 18px;
-  padding: 3px;
+}
+.projectlinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.details {
+  cursor: default;
+}
+.detailsdiv {
+  text-align: center;
+  width: 500px;
+}
+.seemore {
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 

@@ -41,7 +41,7 @@ const Resume = (props) => {
                         <a href='https://drive.google.com/file/d/1-KLawve68N53jzAvaRmLFw8KwuB8pqjU/view?usp=share_link' target='_blank'>
                             <h3 className='degree'>B.S. in Biopsychology and Neuroscience | Pre-medical concentration</h3>
                         </a>
-                        <h3 className='gpa'>GPA: 3.89 | Relevant courses: 1 year Physics, 1 year Calculus, 1 year Statistics</h3>
+                        <h3 className='gpa'>GPA: 3.71 | Relevant courses: 1 year Physics, 1 year Calculus, 1 year Statistics</h3>
                     </div>
                 </div>
 
