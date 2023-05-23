@@ -3,14 +3,16 @@ h3, h1, h2 {
 }
 body {
   /* color: #444444; */
-  /* background-image: url('../public/images/back.jpg'); */
+  /* background-image: url('../public/images/tomma.jpg'); */
+  background-color: #444444;
+  color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 a {
   text-decoration: none;
-  color: #444444;
+  color: #C0C0C0;
 }
 
 /* App */
@@ -26,6 +28,7 @@ a {
 }
 #title {
   font-size: 45px;
+  color: #C0C0C0;
 }
 #headshot {
   width: 325px;
@@ -61,7 +64,8 @@ a {
   margin-left: 30px;
 }
 #brandstatement {
-  margin: 30px 45px 20px 0px;
+  margin: 30px 45px 30px 0px;
+  font-size: 20px;
 }
 
 /* Resume */
@@ -70,12 +74,12 @@ a {
 }
 .galogo, .edulogo {
   width: 60px;
-  margin: 0px 20px 0px 20px;
+  margin: 10px 20px 0px 20px;
 }
 .schoollogo {
   display: flex;
   flex-direction: row;
-  margin: 30px 20px 0px 0px;
+  margin: 45px 20px 0px 0px;
 }
 #resumecontainer {
   display: flex;
@@ -100,17 +104,25 @@ a {
 .eduyear {
   margin-left: auto;
   font-size: 20px;
+  margin-top: 5px;
 }
 .locationyear, .degreegpa {
   margin-left: 20px;
 }
 .degree, .gpa {
-  font-size: 25px;
+  font-size: 22px;
   margin-top: 15px;
+}
+.degree {
+  font-size: 29px;
+}
+.degree:hover, .repo:hover {
+  text-decoration: underline;
+  color: #C0C0C0;
 }
 .edulocation {
   font-size: 15px;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .gabio {
   margin-bottom: 30px;
@@ -124,6 +136,23 @@ a {
 #resumepage {
   margin-left: 30px;
   margin-right: 30px;
+}
+.school {
+  font-size: 40px;
+}
+#downloadimg {
+  width: 100px; 
+  height: auto;
+}
+#download {
+  font-size: 55px;
+  color: black;
+  margin-left: 30px;
+}
+#downloaddiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .pagetitlediv {
@@ -144,7 +173,7 @@ a {
 .allprojects {
   display: flex;
   flex-direction: row;
-  margin: 35px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   justify-content: center;
 }
 .projectimg {
@@ -179,7 +208,7 @@ a {
   flex-direction: row;
   margin: 10px 0px 30px 0px;
   font-size: 55px;
-  color: #444444;
+  color: #C0C0C0;
 }
 .linkicon {
   width: 50px;

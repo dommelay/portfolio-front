@@ -22,7 +22,10 @@ const Resume = (props) => {
 
             <div id='resumedownload'>
                 <a href='https://drive.google.com/file/d/1YmI9GWPQFnfqK_zgzeeki3P09NPfhw2w/view?usp=sharing' target='_blank' download>
-                    <button id='resumebtn'>Download Resume</button>
+                    <div id='downloaddiv'>
+                        <h2 id='download'>Resume</h2>
+                        <img id='downloadimg' src='/images/download.png' alt='download resume'/>
+                    </div>
                 </a>
             </div>
 
