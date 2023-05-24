@@ -19,13 +19,10 @@ a {
 .navcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 400px;
-
-  margin: 10px 0px 0px 60px;
+  margin: 0px 0px 0px 60px;
 }
 .navelement {
-  /* margin-right: 20px; */
+  margin-right: 20px;
   font-size: 20px;
 }
 
@@ -94,7 +91,7 @@ a {
 .schoollogo {
   display: flex;
   flex-direction: row;
-  margin: 45px 20px 0px 0px;
+  margin: 36px 20px 0px 0px;
 }
 #resumecontainer {
   display: flex;
@@ -129,7 +126,7 @@ a {
   margin-top: 15px;
 }
 .degree {
-  font-size: 29px;
+  font-size: 27px;
 }
 .degree:hover, .repo:hover {
   text-decoration: underline;
@@ -149,18 +146,17 @@ a {
   margin: 60px 0px 40px 0px;
 }
 #resumepage {
-  margin-left: 30px;
-  margin-right: 30px;
+margin: 0px 60px 50px 50px;
 }
 .school {
-  font-size: 40px;
+  font-size: 35px;
 }
 #downloadimg {
-  width: 100px; 
+  width: 75px; 
   height: auto;
 }
 #download {
-  font-size: 55px;
+  font-size: 45px;
   color: black;
   margin-left: 30px;
 }
@@ -171,10 +167,10 @@ a {
 }
 
 .pagetitlediv {
-  margin: 30px 0px 20px 30px;
+  margin: 15px 0px 20px 30px;
 }
 .pagetitle {
-  font-size: 50px;
+  font-size: 35px;
 }
 .arrowcontainer {
   display: flex;
@@ -255,5 +251,62 @@ a {
 @media screen and (min-width: 1070px) {
   #titlediv {
     width: 600px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #resumecontainer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navelement {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navcontainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .pagetitle {
+    font-size: 25px;
+  }
+  .pagetitlediv {
+    justify-content: center;
+    display: flex;
+    margin: 15px 0px 20px 0px;
+  }
+  #download {
+    font-size: 38px;
+    margin-left: 0px;
+  }
+  #downloadimg {
+    width: 63px;
+    margin-left: 3px;
+  }
+  #resumepage {
+    margin: 0px 0px 30px 0px;
+  }
+  .edulogo, .galogo {
+    width: 50px;
+    height: 55px;
+  }
+  .school {
+    font-size: 25px;
+  }
+  .edulocation, .eduyear {
+    font-size: 15px;
+  }
+  .schoollogo {
+    margin-right: 15px;
+  }
+  .degree {
+    font-size: 22px;
+  }
+  .gpa {
+    font-size: 18px;
   }
 }
