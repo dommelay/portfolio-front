@@ -97,17 +97,11 @@ a {
   display: flex;
   flex-direction: row;
 }
-#resumedownload {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #resumebtn {
   font-size: 35px;
   padding: 15px;
   width: 200px;
-  margin: 0px 20px 0px 30px;
-  border-radius: 12px;
+  margin: 0px 20px 0px 0px;
 }
 .locationyear {
   display: flex;
@@ -164,6 +158,7 @@ margin: 0px 60px 50px 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
 }
 
 .pagetitlediv {
@@ -257,6 +252,13 @@ margin: 0px 60px 50px 50px;
   #resumecontainer {
     flex-direction: column;
   }
+  #downloaddiv {
+    margin: 0px;
+  }
+  #resumedownload {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 750px) {
   .navelement {
@@ -269,7 +271,6 @@ margin: 0px 60px 50px 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
   }
   .pagetitle {
     font-size: 25px;
