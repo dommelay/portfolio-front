@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import {Link} from 'react-router-dom'
+
 const Projects = () => {
     const [wdetails, setWdetails] = useState(false)
     const [gdetails, setGdetails] = useState(false)
@@ -13,6 +15,21 @@ const Projects = () => {
 
     return (
         <div className='projectscontainer'>
+
+        <div className='navcontainer'>
+            <Link to={'/'}>
+                <h4 className='navelement'>Home</h4>
+            </Link>
+            <Link to={'/resume-education'}>
+                <h4 className='navelement'>Resume</h4>
+            </Link>
+            <Link to={'/projects'}>
+                <h4 className='navelement'>Projects</h4>
+            </Link>
+            <Link to={'/about'}>
+                <h4 className='navelement'>About</h4>
+            </Link>
+        </div>
 
              <div>
                 <h1 className='pagetitle'>Projects</h1>

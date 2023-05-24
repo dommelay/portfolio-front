@@ -1,4 +1,6 @@
-import react from 'react'
+import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 const Resume = (props) => {
 
@@ -13,6 +15,21 @@ const Resume = (props) => {
     return (
 
 <div id='resumepage'>
+
+        <div className='navcontainer'>
+            <Link to={'/'}>
+                <h4 className='navelement'>Home</h4>
+            </Link>
+            <Link to={'/resume-education'}>
+                <h4 className='navelement'>Resume</h4>
+            </Link>
+            <Link to={'/projects'}>
+                <h4 className='navelement'>Projects</h4>
+            </Link>
+            <Link to={'/about'}>
+                <h4 className='navelement'>About</h4>
+            </Link>
+        </div>
 
     <div className='pagetitlediv'>
         <h1 className='pagetitle'>Education | Resume</h1>
@@ -68,9 +85,9 @@ const Resume = (props) => {
          
 
         </div>
-        <div className='arrowcontainer'>
+        {/* <div className='arrowcontainer'>
             <img id='arrowresume' className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
-        </div>
+        </div> */}
 </div>
     )
 }
