@@ -2,19 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 
-const Resume = (props) => {
-
-    const handleScroll = () => {
-        window.scrollTo ({
-            top: 1450,
-            behavior: 'smooth',
-          })
-    }
+const Resume = () => {
 
 
     return (
-
-<div id='resumepage'>
+    
+        <>
 
         <div className='navcontainer'>
             <Link to={'/'}>
@@ -30,6 +23,8 @@ const Resume = (props) => {
                 <h4 className='navelement'>About</h4>
             </Link>
         </div>
+
+<div id='resumepage'>
 
     <div className='pagetitlediv'>
         <h1 className='pagetitle'>Education | Resume</h1>
@@ -85,10 +80,10 @@ const Resume = (props) => {
          
 
         </div>
-        {/* <div className='arrowcontainer'>
-            <img id='arrowresume' className='icon downarrow' src={process.env.PUBLIC_URL + '/images/down-arrow.png' } alt='icon' onClick={handleScroll}/>
-        </div> */}
+        
 </div>
+
+</>
     )
 }
 
