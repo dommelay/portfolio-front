@@ -174,7 +174,7 @@ margin: 0px 60px 50px 50px;
 
 /* Projects */
 .projectscontainer {
-  margin: 20px 60px 300px 60px;
+  margin: 20px 60px 50px 60px;
 }
 .allprojects {
   display: flex;
@@ -236,9 +236,11 @@ margin: 0px 60px 50px 50px;
 .detailsdiv {
   text-align: center;
   width: 500px;
+  margin-right: 0px;
 }
 .seemore {
   font-size: 20px;
+  margin-right: 0px;
 }
 
 
@@ -247,41 +249,13 @@ margin: 0px 60px 50px 50px;
   #titlediv {
     width: 600px;
   }
-  
   #resumecontainer {
     justify-content: center;
-  }
-  /* .school {
-    font-size: 40px;
-  }
-  .edulocation {
-    font-size: 17px;
-  }
-  .eduyear {
-    font-size: 22px;
-  }
-  .degree {
-    font-size: 32px;
-  }
-  .gpa {
-    font-size: 25px;
-  }
-  .degree, .gpa {
-    margin-top: 25px;
   }
   .edulogo {
     width: 65px;
     height: 70px;
-  } */
-  /* .schoollogo {
-    margin-top: 0px;
-  }
-  #resumepage {
-    margin-top: 0px;
-  } */
-  .edu {
-    /* width: 550px; */
-  }
+  } 
 }
 @media screen and (max-width: 1000px) {
   #resumecontainer {
@@ -381,5 +355,75 @@ margin: 0px 60px 50px 50px;
   }
   .repo {
     font-size: 35px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .projectimg {
+    width: 400px;
+    height: 340px;
+  }
+  .detailsdiv {
+    width: 400px;
+   }
+   .weatherdiv {
+    margin-left: 75px;
+   }
+}
+@media screen and (max-width: 950px) {
+  .projectimg {
+    width: 325px;
+    height: 276px;
+  }
+  .repo {
+    font-size: 27px;
+  }
+  .projecttitle {
+    font-size: 34px;
+  }
+  .linkicon {
+    width: 44px;
+  }
+  .weatherdiv {
+    margin-left: 50px;
+  }
+  .detailsdiv {
+    width: 350px;
+  }
+  .allprojects {
+    margin-top: 30px;
+  }
+}
+/* @media screen and (max-width: 830px) {
+  .allprojects {
+    flex-direction: column;
+  }
+} */
+@media screen and (max-width: 785px) {
+  .weatherdiv {
+    margin-left: 40px;
+  }
+  .detailsdiv {
+    width: 320px;
+  }
+  .seemore {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .allprojects {
+    flex-direction: column;
+  }
+  .weatherdiv {
+    margin: 20px 0px 25px 0px;
+  }
+  #projecttitle {
+    display: flex;
+    justify-content: center;
+  }
+  .projectscontainer {
+    margin-top: 10px;
+  }
+  .gallerydetail {
+    margin-bottom: 20px;
   }
 }

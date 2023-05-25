@@ -33,7 +33,7 @@ const Projects = () => {
 
         <div className='projectscontainer'>
 
-             <div>
+             <div id='projecttitle'>
                 <h1 className='pagetitle projectpage'>Projects</h1>
             </div>
             <div className='allprojects'>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <h3 className='details' onClick={handleGdetails}>...</h3>
                     </div>
                     {gdetails ?
-                    <div className='detailsdiv'>
+                    <div className='detailsdiv gallerydetail'>
                         <h3 className='seemore'>Gallery is a museum application that allows users to search through the Art Institute of Chicago's database and collect their favorite artworks. Includes random search artwork generator. Technologies used: TypeScript, MERN (MongoDB, Express, React + Router, Node), RESTful API, third party API. App is capable of CRD functionality. Please see Frontend README.md for a detailed description of the process of building the project and how it functions.</h3>
                     </div>
                     : <></>}
