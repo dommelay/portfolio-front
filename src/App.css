@@ -184,16 +184,16 @@ margin: 0px 60px 50px 50px;
 }
 .projectimg {
   /* 85% ratio */
-  width: 500px;
-  height: 425px;
+  width: 450px;
+  height: 383px;
 }
 .projecttitle {
   display: flex;
   justify-content: center;
-  font-size: 45px;
+  font-size: 38px;
 }
 .weatherdiv {
-  margin-left: 80px;
+  margin-left: 60px;
 }
 .projectdiv {
   display: flex;
@@ -212,14 +212,14 @@ margin: 0px 60px 50px 50px;
 .projectinfo {
   display: flex;
   flex-direction: row;
-  margin: 10px 0px 30px 0px;
+  margin: 0px 0px 25px 0px;
   font-size: 55px;
   color: #C0C0C0;
 }
 .linkicon {
-  width: 50px;
+  width: 47px;
   height: auto;
-  margin: 35px 0px 40px 0px;
+  margin: 30px 0px 40px 0px;
 }
 .projectlinks {
   display: flex;
@@ -227,6 +227,7 @@ margin: 0px 60px 50px 50px;
   align-items: center;
 }
 .details {
+  font-size: 50px;
   cursor: default;
 }
 .details:hover {
@@ -237,8 +238,7 @@ margin: 0px 60px 50px 50px;
   width: 500px;
 }
 .seemore {
-  font-size: 25px;
-  margin-top: 5px;
+  font-size: 20px;
 }
 
 
@@ -246,6 +246,41 @@ margin: 0px 60px 50px 50px;
 @media screen and (min-width: 1070px) {
   #titlediv {
     width: 600px;
+  }
+  
+  #resumecontainer {
+    justify-content: center;
+  }
+  /* .school {
+    font-size: 40px;
+  }
+  .edulocation {
+    font-size: 17px;
+  }
+  .eduyear {
+    font-size: 22px;
+  }
+  .degree {
+    font-size: 32px;
+  }
+  .gpa {
+    font-size: 25px;
+  }
+  .degree, .gpa {
+    margin-top: 25px;
+  }
+  .edulogo {
+    width: 65px;
+    height: 70px;
+  } */
+  /* .schoollogo {
+    margin-top: 0px;
+  }
+  #resumepage {
+    margin-top: 0px;
+  } */
+  .edu {
+    /* width: 550px; */
   }
 }
 @media screen and (max-width: 1000px) {
@@ -278,11 +313,11 @@ margin: 0px 60px 50px 50px;
   .pagetitlediv {
     justify-content: center;
     display: flex;
-    margin: 15px 0px 20px 0px;
+    margin: 5px 0px 20px 0px;
   }
   #download {
     font-size: 38px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   #downloadimg {
     width: 63px;
@@ -303,11 +338,48 @@ margin: 0px 60px 50px 50px;
   }
   .schoollogo {
     margin-right: 15px;
+    margin-top: 30px;
   }
   .degree {
     font-size: 22px;
   }
   .gpa {
     font-size: 18px;
+  }
+}
+/* Projects */
+@media screen and (min-width: 1250px) {
+  .projectimg {
+    width: 500px;
+    height: 425px;
+  }
+  .weatherdiv {
+    margin-left: 100px;
+  }
+  .repo {
+    font-size: 32px;
+  }
+  .seemore {
+    font-size: 23px;
+  }
+  .details {
+    font-size: 60px;
+  }
+  .projectinfo {
+    margin: 10px 0px 35px 0px;
+  }
+}
+@media screen and (min-width:1350px) {
+  .weatherdiv {
+    margin-left: 150px;
+  }
+  .projectpage {
+    font-size: 40px;
+  }
+  .projecttitle {
+    font-size: 45px;
+  }
+  .repo {
+    font-size: 35px;
   }
 }

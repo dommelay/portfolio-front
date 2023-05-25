@@ -34,7 +34,7 @@ const Projects = () => {
         <div className='projectscontainer'>
 
              <div>
-                <h1 className='pagetitle'>Projects</h1>
+                <h1 className='pagetitle projectpage'>Projects</h1>
             </div>
             <div className='allprojects'>
 

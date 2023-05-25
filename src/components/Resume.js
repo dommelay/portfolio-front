@@ -27,7 +27,7 @@ const Resume = () => {
 <div id='resumepage'>
 
     <div className='pagetitlediv'>
-        <h1 className='pagetitle'>Education | Resume</h1>
+        <h1 className='pagetitle edpage'>Education | Resume</h1>
     </div>
 
         <div id='resumecontainer'>
