@@ -243,6 +243,51 @@ margin: 0px 60px 50px 50px;
   margin-right: 0px;
 }
 
+/* About */
+#about {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 50px;
+}
+#abouttitle {
+  font-size: 35px;
+}
+.interestpic {
+  width: 300px; 
+  height: 275px;
+}
+.aboutpic {
+  width: 300px;
+  height: auto;
+  margin-top: 70px;
+}
+.aboutcontainer {
+  margin: 0px 60px 30px 60px;
+  display: flex; 
+  flex-direction: row;
+}
+.igicon, .spoticon, .leo {
+  width: 50px;
+  height: auto;
+}
+.igicon, .leo {
+  margin-left: 20px;
+}
+.igmusic {
+  margin-bottom: 20px;
+}
+.about {
+  margin-left: 5px;
+}
+.abouttitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.navab {
+  margin-bottom: 0px;
+}
+
 
 /* media queries */
 @media screen and (min-width: 1070px) {
@@ -368,6 +413,17 @@ margin: 0px 60px 50px 50px;
    .weatherdiv {
     margin-left: 75px;
    }
+   .bioab {
+    font-size: 21px;
+   }
+   .igicon, .spoticon, .leo {
+    width: 40px;
+    height: auto;
+  }
+  .aboutpic {
+    width: 270px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 950px) {
   .projectimg {
@@ -427,3 +483,11 @@ margin: 0px 60px 50px 50px;
     margin-bottom: 20px;
   }
 }
+
+/* @media screen and (max-width: 850px) {
+ .aboutcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+} */
