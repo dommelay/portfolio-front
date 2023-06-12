@@ -43,7 +43,7 @@ a {
   color: #C0C0C0;
 }
 #headshot {
-  width: 325px;
+  width: 350px;
   height: auto;
   margin: 0px 30px 0px 30px;
 }
@@ -52,9 +52,24 @@ a {
   align-items: center;
 }
 .icon {
-  width: 40px;
   height: auto;
   margin: 0px 10px 0px 0px;
+}
+.linkedin, .gmail {
+  width: 80px;
+}
+.twitter {
+  width: 75px;
+}
+.twitter {
+  margin-top: 5px;
+}
+.gmail {
+  margin-top: 12px;
+}
+.github {
+  margin: 10px 15px 0px 0px;
+  width: 62px;
 }
 #icons {
   display: flex;
@@ -76,7 +91,7 @@ a {
   margin-left: 30px;
 }
 #brandstatement {
-  margin: 30px 45px 30px 0px;
+  margin: 15px 45px 10px 0px;
   font-size: 20px;
 }
 
@@ -257,9 +272,8 @@ margin: 0px 60px 50px 50px;
   height: 275px;
 }
 .aboutpic {
-  width: 300px;
+  width: 400px;
   height: auto;
-  margin-top: 70px;
 }
 .aboutcontainer {
   margin: 0px 60px 30px 60px;
@@ -284,8 +298,14 @@ margin: 0px 60px 50px 50px;
   justify-content: center;
   margin-bottom: 20px;
 }
+.abouttitle2 {
+  display: none;
+}
 .navab {
   margin-bottom: 0px;
+}
+.aboutpic {
+  margin-top: 65px;
 }
 
 
@@ -413,16 +433,12 @@ margin: 0px 60px 50px 50px;
    .weatherdiv {
     margin-left: 75px;
    }
-   .bioab {
-    font-size: 21px;
-   }
    .igicon, .spoticon, .leo {
     width: 40px;
     height: auto;
   }
-  .aboutpic {
-    width: 270px;
-    height: auto;
+  .bioab {
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -491,3 +507,94 @@ margin: 0px 60px 50px 50px;
   justify-content: center;
  }
 } */
+
+@media screen and (max-width: 1330px) {
+  .aboutpic {
+    width: 350px;
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .aboutpic {
+    width: 300px;
+    margin-top: 165px;
+  }
+  .bioab {
+    font-size: 18px;
+   }
+}
+@media screen and (max-width: 850px) {
+  .aboutpic {
+    margin: 0px 0px 10px 0px;
+    width: 275px;
+  }
+  .aboutcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #abouttitle {
+    display: none;
+  }
+  .igmusic {
+    display: none;
+  }
+  .abouttitle2 {
+    display: block;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+  }
+  #abouttitle2 {
+    margin-bottom: 12px;
+  }
+  #about, .about {
+    margin-left: 0px;
+  }
+  #about {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .aboutpic {
+    width: 225px;
+  }
+  .bioab {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1275px) {
+  #name {
+    font-size: 70px;
+  }
+  #title {
+    font-size: 55px;
+  }
+  #brandstatement {
+    font-size: 22px;
+  }
+  #headshot {
+    width: 400px;
+  }
+  #titlediv {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #headshot {
+    width: 300px;
+    margin-left: 55px;
+  }
+  #name {
+    font-size: 50px;
+  }
+  #titile {
+    font-size: 35px;
+  }
+  #brandstatement {
+    font-size: 18px;
+    margin-right: 0px;
+  }
+}
+/* 870 */
+
