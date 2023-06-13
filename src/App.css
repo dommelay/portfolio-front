@@ -94,6 +94,12 @@ a {
   margin: 15px 45px 10px 0px;
   font-size: 20px;
 }
+#headshotdiv2 {
+  display: none;
+}
+#brandstate2, #brandstatement2 {
+  display: none;
+}
 
 /* Resume */
 .edulogo {
@@ -583,7 +589,7 @@ margin: 0px 60px 50px 50px;
 @media screen and (max-width: 1200px) {
   #headshot {
     width: 300px;
-    margin-left: 55px;
+    margin-left: 0px;
   }
   #name {
     font-size: 50px;
@@ -593,8 +599,69 @@ margin: 0px 60px 50px 50px;
   }
   #brandstatement {
     font-size: 18px;
-    margin-right: 0px;
+    margin-right: 75px;
   }
 }
-/* 870 */
-
+@media screen and (max-width: 900px) {
+  #brandstatement {
+    font-size: 16px;
+  }
+  #name {
+    font-size: 45px;
+  }
+  #title {
+    font-size: 40px;
+  }
+  #headshot {
+    width: 275px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #headshot {
+    width: 250px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  #headshotdiv2, #brandstate2, #brandstatement2 {
+    display: block;
+  }
+  #headshotdiv, .brandstate {
+    display: none;
+  }
+  #headshot2 {
+    width: 250px;
+    margin: 15px 0px 10px 0px;
+  }
+  #titlediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #brandstatement2 {
+    margin: 15px 30px 15px 30px;
+    font-size: 16px;
+  }
+  #titlediv {
+    margin: 0px;
+  }
+.App {
+  margin-top: 15px;
+}
+#name {
+  font-size: 35px;
+}
+#title {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.github {
+  margin-left: 30px;
+}
+.brandstate2 {
+  text-align: center;
+}
+}
+/* .App {
+  margin-top: 85px;
+} */

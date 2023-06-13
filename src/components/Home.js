@@ -33,6 +33,11 @@ const Home = () => {
       <div id='titlediv'>
         <h1 id='name'>Dominique Clark</h1>
         <h2 id='title'>Software Engineer</h2>
+
+        <div id='headshotdiv2'>
+            <img id='headshot2' src={process.env.PUBLIC_URL + '/images/headshot.png'} alt="Headshot" />
+        </div>
+
         <div className='brandstate' style={{margin: 0}}>
         <h4 id='brandstatement'>I am a Full-Stack Software Engineer with a background in Biopsychology, Neuroscience, and pre-med studies. My university course work has shaped me to be highly analytical and has helped me to develop excellent logic and reasoning skills. I am driven by complexity, and have a passion for solving difficult problems and writing elegant code. 
         </h4>
@@ -50,6 +55,11 @@ const Home = () => {
             <a href='mailto:melaydominique@gmail.com'>
                 <img className='icon gmail' src={process.env.PUBLIC_URL + '/images/gmailcolor.png' } alt='icon'/>
             </a>
+        </div>
+
+        <div className='brandstate2' style={{margin: 0}}>
+        <h4 id='brandstatement2'>I am a Full-Stack Software Engineer with a background in Biopsychology, Neuroscience, and pre-med studies. My university course work has shaped me to be highly analytical and has helped me to develop excellent logic and reasoning skills. I am driven by complexity, and have a passion for solving difficult problems and writing elegant code. 
+        </h4>
         </div>
 
     </div>
