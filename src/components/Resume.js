@@ -33,7 +33,7 @@ const Resume = () => {
         <div id='resumecontainer'>
 
             <div id='resumedownload'>
-                <a href='https://drive.google.com/file/d/1qAEdUBtb85yH7iUgiF05alhNUEvD20pd/view?usp=sharing' target='_blank' download>
+                <a href='https://drive.google.com/file/d/1zD9dEpA4uJ6L6GRrZKcfuTW14vixFo3O/view?usp=sharing' target='_blank' download>
                     <div id='downloaddiv'>
                         <h2 id='download'>Resume</h2>
                         <img id='downloadimg' src='/images/download.png' alt='download resume'/>
